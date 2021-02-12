@@ -1,0 +1,41 @@
+
+1. Kunne forklare konceptuelt om begrebet TCP/IP samt porte (hvilke er afsat til specifikke protokoller)
+
+# TCP Transmission Control Protocol.
+# Establish connections between hosts and IPs, in order for Apps to communicate via data packages.
+## IP Internet protocol. 
+## IPs are divided into Subnetworks. Consists of  2 parts, 1. Network prefix 2. Host identifier 
+## IPv4 & IPv6. IPv4 main use: 4 numbers separated by .
+## An IP Identifies the network and host. IP Dynamic, MAC is Static 
+## The header of each IP packet contains the IP address of the sending Host and connecting Host.
+### Ports range 0 to 65535, assigned by the system or admin.
+### Port 80 til HTTP / Browser
+### Port 8080 til Developers
+### Port 25 til mails
+### Port 21 til FTP
+
+
+2. Kunne forklare konceptuelt om DNS-systemet og funktionen af en DNS-server
+
+# DNS Domain name System: Standard protocol. Like a phone book. 
+# DNS name resolution: Convert IPs into domain names: www.xxx
+## DNS-Server finds the IP and server that host the Domain and mail.
+
+
+3. Kunne forklare vigtige begreber relateret til HTTP-protokollen som Headers, Caching, Sessions og Cookies.
+
+# Hypertext Transfer Protocol: Protocol on how Data is being sent and received.
+## Headers have req. and resp. message. Status code ex. 200.
+## Cashing gives directives on time and when resp. expires, and holds some data as target URI. 
+## Sessions set a unique ID cookie which identifies a user in an operating session. Usually 30min before it expires.
+## Cookies, Data sent from server to web browser. Resp. to server, Ex. Logged-in. 
+
+
+
+4. Kunne monitorere og forklare ideen bag de vigtigste Request og Response headers
+5. Kunne forklare om HTTP statuskoder og de forskellige ranges 2xx, 3xx, 4xx og 5xx
+6. Kunne forklare ideen med og  demonstrere hvordan HTTP tillader Sessions (state) oven på en stateles protokol
+7. Kunne forklare begrebet Virtualization
+8. Kunne forklare begrebet x-as-a-service og benytte/demonstrere en infrastructure-as-a-service platform
+9. Kunne forklare konceptuelt, om assymetrisk kryptering, signatures og certifikater, relateret til TLS
+10.Kunne opsætte en server i praksis med domænenavn, reverse proxy og https

@@ -1,0 +1,106 @@
+        <p>
+            Q:<br>
+            What is your public IP address right now, and how did you find it?<br>
+            A:<br>
+            # 87.73.124.110<br> 
+            # Check the net and check the router<br>
+        </p>
+        <p>
+            Q:<br>
+            What is your private IP address right now (do this both at home and in school), and who/what gave you that address?<br>
+            A:<br>
+            # # 172.17.192.1  ( ipconfig )<br> 
+            # DHCP  & ISP: Internet Service Provider<br>
+        </p>
+        <p>
+            Q:<br>
+            What’s special about these address ranges?<br>
+            Q: 10.0.0.0 – 10.255.255.255<br>
+            A: # Class A - Private Network<br>
+            Q: 172.16.0.0 – 172.31.255.255<br>
+            A: # Class B - Private Network<br>
+            Q: 192.168.0.0 – 192.168.255.255<br>
+            A: # Class C - Internet<br>
+        </p>
+        <p>
+            Q:<br>
+            What’s special about this ip-address: 127.0.0.1?<br>
+            A:<br>
+            # Local-host. identify your machine. Same machine as user<br> 
+        </p>
+        <p>
+            Q:<br>
+            What kind of service would you expect to find on a server using these ports: 22, 23, 25, 53, 80, 443?<br>
+            A:<br>
+            # 80 HTTP webtraffic<br>
+            # 25 SMTP emails<br>
+            # 22 FTP<br>
+            # 23 Telnet<br>
+            # 53 TCP/UDP DNS <br> 
+        </p>
+        <p>
+            Q:<br>
+            What is the IP address of studypoints.info and how did you find it?<br>
+            A:<br>
+            # 157.230.21.145<br>
+            # Command prompt: ping studypoints.info<br> 
+        </p>
+        <p>
+            Q:<br>
+            If you write https://studypoints.info in your browser, how did “it” figure out that it should go to the IP address you discovered above?<br>
+            Explain shortly the purpose of an ip-address and a port-number and why we need both<br>
+            A:<br>
+            # The domain name is lookup and routed to the right IP by the DNS. Domain Name Server<br>
+            # The IP address identify the location of a connected device, where the port specifies the information and allow applications to share network resources<br>           
+        </p>
+        <p>
+            Q:<br>
+            What is your (nearest) DNS server,?<br>
+            A:<br>
+            # IP 87.72.130.2<br>
+            # Longitude	12.0564° (12° 3′ 23″ E)<br>
+            # Latitude	55.7123° (55° 42′ 44″ N)<br>
+        </p>
+        <p>
+            Q:<br>
+            What is (conceptually) the DNS system and the purpose with a DNS Server?<br>
+            A:<br>
+            # The system is to match numbers, IP, - to and names, Domain.<br>
+            # Maintain a database of most used names and IP's in own network.<br>
+            # Cache requests<br>
+        </p>
+        <p>
+            Q:<br>
+            What is your current Gateway, and how did you find it?<br>
+            A:<br>
+            # Default Gateway 87.73.124.1<br>
+            # My local home router<br>        
+        </p>
+        <p>
+            Q:<br>
+            What is the address of your current DHCP-Server, and how did you find it?<br>
+            A:<br>
+            # DHCP Server: 192.168.0.1 <br> 
+            # ipconfig /all | find /i "DHCP Server"<br>
+        </p>
+        <p>
+            Q:<br>
+            Explain (conceptually) about the TCP/IP-protocol stack<br>
+            A:<br>
+            # TCP connection protocol. Connects and open data communication, ensure reliability, e.g. packets are resend.<br>
+            # IP identify a location of the specific device.<br> 
+        </p>
+        <p>
+            Q:<br>
+            Explain about the HTTP Protocol (the following exercises will go much deeper into this protocol)<br>
+            A:<br>
+            # Application level. HTTP protcol defines how messages are formatted and transmitted. Req. & resp.<br>   
+        </p>    
+        <p>
+            Q:<br>
+            Explain (conceptually) how HTTP and TCP/IP are connected (what can HTTP do, and where does it fit into TCP/IP)<br>
+            A:<br>
+            # HTTP format, label and header a packet with request and response, and data.<br>
+            # TCP allocate port, establish the connection and route for data communication.<br>
+            # IP identify the endpoints receiver and sender machines.<br>
+        </p>
